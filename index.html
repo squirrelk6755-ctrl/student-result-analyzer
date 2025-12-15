@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Result Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Student Result Analyzer</h1>
+
+  <input type="text" id="studentName" placeholder="Student Name">
+
+  <div id="subjects">
+    <div class="subject">
+      <input type="text" class="subName" placeholder="Subject Name (Physics)">
+      <input type="number" class="mark" placeholder="Marks">
+    </div>
+    <div class="subject">
+      <input type="text" class="subName" placeholder="Subject Name (Maths)">
+      <input type="number" class="mark" placeholder="Marks">
+    </div>
+    <div class="subject">
+      <input type="text" class="subName" placeholder="Subject Name (Chemistry)">
+      <input type="number" class="mark" placeholder="Marks">
+    </div>
+  </div>
+
+  <button onclick="addSubject()">Add Subject</button>
+  <button onclick="analyzeResult()">Analyze Result</button>
+
+  <h2>Result</h2>
+  <table>
+    <tbody id="resultTable"></tbody>
+  </table>
+
+  <h2>All Students</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Total</th>
+        <th>Percentage</th>
+        <th>Grade</th>
+        <th>Status</th>
+        <th>Rank</th>
+      </tr>
+    </thead>
+    <tbody id="allResults"></tbody>
+  </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
