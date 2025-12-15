@@ -22,17 +22,15 @@ A web-based application built using HTML, CSS, and JavaScript to analyze student
 - CSS3  
 - JavaScript (Vanilla JS)  
 - Browser localStorage  
-- GitHub Pages (for deployment)  
+- GitHub Pages  
 
 ---
 
 ## Live Demo
 
-[https://YOUR-USERNAME.github.io/student-result-analyzer/](https://squirrelk6755-ctrl.github.io/student-result-analyzer/
-)
-
-(Replace `YOUR-USERNAME` with your GitHub username)
+https://squirrelk6755-ctrl.github.io/student-result-analyzer/
 
 ---
 
+## Project Structure
 
