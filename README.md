@@ -33,4 +33,29 @@ https://squirrelk6755-ctrl.github.io/student-result-analyzer/
 ---
 
 ## Project Structure
+student-result-analyzer/
+│── index.html
+│── style.css
+│── script.js
+│── README.md
+
+
+---
+
+## Application Logic
+
+- Each subject requires a minimum of 40 marks to pass  
+- If any subject is failed, the overall result is marked as FAIL  
+- In case of failure, the grade is overridden to F  
+- Student ranks are calculated based on total marks  
+
+---
+
+## How to Run Locally
+
+1. Clone or download the repository  
+2. Open `index.html` in any modern web browser  
+3. Enter student details and analyze results  
+
+---
 
