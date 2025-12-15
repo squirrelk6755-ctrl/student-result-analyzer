@@ -28,7 +28,8 @@ A web-based application built using HTML, CSS, and JavaScript to analyze student
 
 ## Live Demo
 
-https://YOUR-USERNAME.github.io/student-result-analyzer/
+[https://YOUR-USERNAME.github.io/student-result-analyzer/](https://squirrelk6755-ctrl.github.io/student-result-analyzer/
+)
 
 (Replace `YOUR-USERNAME` with your GitHub username)
 
